@@ -1,0 +1,28 @@
+.navBar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  
+    &_logo {
+      height: 100%;
+      width: 60px;
+      padding: 25px;
+      box-sizing: unset;
+    }
+  
+    &_links {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        &_link {
+        padding: 10px 15px;
+        cursor: pointer;
+        font-size: 25px;
+        }
+    }
+  }
