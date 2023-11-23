@@ -1,6 +1,6 @@
 import Home from './routes/home/home.jsx';
 import NavBar from './components/navigation/navigation.jsx';
-import SignIn from './components/sign-in/sign-in.jsx';
+import Login from './components/login/login.jsx';
 
 import {Routes, Route, Outlet} from 'react-router-dom'
 
@@ -14,7 +14,7 @@ const App = () => {
       <Route path='/' element={<NavBar /> }>
       <Route  index={true} element={<Home />} />
       <Route path='shop' element={<Shop />} />
-      <Route path='sign-in' element={<SignIn />} />
+      <Route path='login' element={<Login />} />
       </Route>
     </Routes>
      

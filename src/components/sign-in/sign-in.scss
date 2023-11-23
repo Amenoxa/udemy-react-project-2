@@ -1,0 +1,15 @@
+.signIn {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    &_title {
+        margin: 10px 0;
+        font-family: 'Roboto'!important;
+    }
+    &_form {
+        &_buttonContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
